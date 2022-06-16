@@ -1,0 +1,65 @@
+body {
+    background-color: rgb(16, 16, 28);
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+h3 {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+p {
+    color: gray;
+    font-size: 14px;
+}
+
+/* .pbu-movie-card-container {
+    display: flex;
+    flex-flow: row wrap;
+    /* or flex-direction: row;
+    flex-wrap: wrap */
+    /*gap: 24px;
+    justify-content: center;
+} */
+
+/* .pbu-movie-card {
+    width: 250px;
+} */
+
+.pbu-movie-card > img:first-of-type {
+    width: 100%;
+    object-fit: cover;
+}
+
+.pbu-movie-info {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.my-6 {
+    margin-bottom: 200px;
+    margin-top: 200px;
+}
+h2 {
+    font-size: 30px;
+    font-weight: 700;
+}
+/* .title {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 20px;
+} */
+
+.header {
+    height: 800px;
+    background-image: url("../assest/img2.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.nav-item {
+    font-size: 12px;
+    padding: 10px;
+    
+}
